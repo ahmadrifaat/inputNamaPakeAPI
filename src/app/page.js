@@ -41,7 +41,7 @@ export default function Home() {
             <div className="profile-banner">
               {/* foto profil */}
               <Image
-                src="/asset/mazr.jpeg"
+                src="/asset/maze.jpeg"
                 alt="Picture of the author"
                 fill
                 objectFit="contain"
