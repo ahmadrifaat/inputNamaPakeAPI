@@ -14,11 +14,11 @@ export default function Diary() {
     const data = res.data;
 
     //ambil judul
-    const judul = data.map((item) => item.judul);
+    const judul = data.map((item) => item.title);
     setJudul(judul);
 
     //ambil isi_diary
-    const isi_diary = data.map((item) => item.isi_diary);
+    const isi_diary = data.map((item) => item.pragraph);
     setIsiDiary(isi_diary);
   }
 
