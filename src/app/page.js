@@ -42,7 +42,7 @@ export default function Home() {
               {/* foto profil */}
               <Image
                 src="/asset/maze.jpeg"
-                alt="Picture of the author"
+                alt="Profile picture"
                 fill
                 objectFit="contain"
               />
