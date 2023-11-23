@@ -1,5 +1,5 @@
 export default function DiaryPost ({params}) {
-    const {judul, isi_diary} =  params;
+    const {title, pragraph} =  params;
 
     return (
         <div className="" ></div>
